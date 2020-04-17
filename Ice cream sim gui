@@ -1,0 +1,563 @@
+-- Script Made By Aztup(38fight1)
+
+local IceCream = Instance.new("ScreenGui")
+local mainframe = Instance.new("Frame")
+local sellauto = Instance.new("TextButton")
+local icecreamfarm = Instance.new("TextButton")
+local tokenfarm = Instance.new("TextButton")
+local tpzone = Instance.new("TextButton")
+local closegui = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local autorebirth = Instance.new("TextButton")
+local halloweenoption = Instance.new("TextButton")
+local tpframe = Instance.new("Frame")
+local vipareatp = Instance.new("TextButton")
+local closetp = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local finishdemo = Instance.new("TextButton")
+local finishpolter = Instance.new("TextButton")
+local ghostlyareatp = Instance.new("TextButton")
+local halloweentp = Instance.new("TextButton")
+local openframe = Instance.new("Frame")
+local Open = Instance.new("TextButton")
+local Delgui = Instance.new("TextButton")
+local halloweenframe = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local closehalloween = Instance.new("TextButton")
+local tokenfarmh = Instance.new("TextButton")
+local autosellh = Instance.new("TextButton")
+local autoselltokenh = Instance.new("TextButton")
+
+IceCream.Name = "IceCream"
+IceCream.Parent = game.CoreGui
+
+mainframe.Name = "mainframe"
+mainframe.Parent = IceCream
+mainframe.Active = true
+mainframe.BackgroundColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+mainframe.BorderColor3 = Color3.new(1, 0.333333, 0)
+mainframe.BorderSizePixel = 2
+mainframe.Position = UDim2.new(0.5, -150, 0.5, -100)
+mainframe.Size = UDim2.new(0, 364, 0, 207)
+
+sellauto.Name = "sellauto"
+sellauto.Parent = mainframe
+sellauto.BackgroundColor3 = Color3.new(0.498039, 0.498039, 0.498039)
+sellauto.BorderColor3 = Color3.new(1, 0.333333, 0)
+sellauto.BorderSizePixel = 2
+sellauto.Position = UDim2.new(0.0659340695, 0, 0.541062772, 0)
+sellauto.Size = UDim2.new(0, 133, 0, 34)
+sellauto.Font = Enum.Font.SourceSansBold
+sellauto.Text = "Auto Sell : OFF"
+sellauto.TextColor3 = Color3.new(0, 0, 0)
+sellauto.TextScaled = true
+sellauto.TextSize = 14
+sellauto.TextWrapped = true
+
+icecreamfarm.Name = "icecreamfarm"
+icecreamfarm.Parent = mainframe
+icecreamfarm.BackgroundColor3 = Color3.new(0.498039, 0.498039, 0.498039)
+icecreamfarm.BorderColor3 = Color3.new(1, 0.333333, 0)
+icecreamfarm.BorderSizePixel = 2
+icecreamfarm.Position = UDim2.new(0.0665147826, 0, 0.293532342, 0)
+icecreamfarm.Size = UDim2.new(0, 133, 0, 34)
+icecreamfarm.Font = Enum.Font.SourceSansBold
+icecreamfarm.Text = "Ice Cream Farm : OFF"
+icecreamfarm.TextColor3 = Color3.new(0, 0, 0)
+icecreamfarm.TextScaled = true
+icecreamfarm.TextSize = 14
+icecreamfarm.TextWrapped = true
+
+tokenfarm.Name = "tokenfarm"
+tokenfarm.Parent = mainframe
+tokenfarm.BackgroundColor3 = Color3.new(0.498039, 0.498039, 0.498039)
+tokenfarm.BorderColor3 = Color3.new(1, 0.333333, 0)
+tokenfarm.BorderSizePixel = 2
+tokenfarm.Position = UDim2.new(0.564995944, 0, 0.293532401, 0)
+tokenfarm.Size = UDim2.new(0, 133, 0, 34)
+tokenfarm.Font = Enum.Font.SourceSansBold
+tokenfarm.Text = "Token Farm : OFF"
+tokenfarm.TextColor3 = Color3.new(0, 0, 0)
+tokenfarm.TextScaled = true
+tokenfarm.TextSize = 14
+tokenfarm.TextWrapped = true
+
+tpzone.Name = "tpzone"
+tpzone.Parent = mainframe
+tpzone.BackgroundColor3 = Color3.new(0.498039, 0.498039, 0.498039)
+tpzone.BorderColor3 = Color3.new(1, 0.333333, 0)
+tpzone.BorderSizePixel = 2
+tpzone.Position = UDim2.new(0.0659340695, 0, 0.772946835, 0)
+tpzone.Size = UDim2.new(0, 133, 0, 34)
+tpzone.Font = Enum.Font.SourceSansBold
+tpzone.Text = "TP Zone"
+tpzone.TextColor3 = Color3.new(0, 0, 0)
+tpzone.TextScaled = true
+tpzone.TextSize = 14
+tpzone.TextWrapped = true
+
+closegui.Name = "closegui"
+closegui.Parent = mainframe
+closegui.BackgroundColor3 = Color3.new(0.498039, 0.498039, 0.498039)
+closegui.BorderColor3 = Color3.new(1, 0.333333, 0)
+closegui.BorderSizePixel = 2
+closegui.Position = UDim2.new(0.932055712, 0, 0.00165838003, 0)
+closegui.Size = UDim2.new(0, 25, 0, 28)
+closegui.Font = Enum.Font.SourceSansBold
+closegui.Text = "X"
+closegui.TextColor3 = Color3.new(0, 0, 0)
+closegui.TextScaled = true
+closegui.TextSize = 14
+closegui.TextWrapped = true
+
+TextLabel.Parent = mainframe
+TextLabel.BackgroundColor3 = Color3.new(0.498039, 0.498039, 0.498039)
+TextLabel.BorderColor3 = Color3.new(1, 0.333333, 0)
+TextLabel.BorderSizePixel = 2
+TextLabel.Position = UDim2.new(-0.000134013593, 0, 0.00165838003, 0)
+TextLabel.Size = UDim2.new(0, 339, 0, 28)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "Ice Cream Simulator GUI Made by Aztup"
+TextLabel.TextColor3 = Color3.new(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14
+TextLabel.TextWrapped = true
+
+autorebirth.Name = "autorebirth"
+autorebirth.Parent = mainframe
+autorebirth.BackgroundColor3 = Color3.new(0.498039, 0.498039, 0.498039)
+autorebirth.BorderColor3 = Color3.new(1, 0.333333, 0)
+autorebirth.BorderSizePixel = 2
+autorebirth.Position = UDim2.new(0.565934062, 0, 0.541062772, 0)
+autorebirth.Size = UDim2.new(0, 133, 0, 34)
+autorebirth.Font = Enum.Font.SourceSansBold
+autorebirth.Text = "Auto Rebirth : OFF"
+autorebirth.TextColor3 = Color3.new(0, 0, 0)
+autorebirth.TextScaled = true
+autorebirth.TextSize = 14
+autorebirth.TextWrapped = true
+
+halloweenoption.Name = "halloweenoption"
+halloweenoption.Parent = mainframe
+halloweenoption.BackgroundColor3 = Color3.new(0.498039, 0.498039, 0.498039)
+halloweenoption.BorderColor3 = Color3.new(1, 0.333333, 0)
+halloweenoption.BorderSizePixel = 2
+halloweenoption.Position = UDim2.new(0.565934062, 0, 0.772946835, 0)
+halloweenoption.Size = UDim2.new(0, 133, 0, 34)
+halloweenoption.Font = Enum.Font.SourceSansBold
+halloweenoption.Text = "Halloween Features"
+halloweenoption.TextColor3 = Color3.new(0, 0, 0)
+halloweenoption.TextScaled = true
+halloweenoption.TextSize = 14
+halloweenoption.TextWrapped = true
+
+tpframe.Name = "tpframe"
+tpframe.Parent = IceCream
+tpframe.Active = true
+tpframe.BackgroundColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+tpframe.BorderColor3 = Color3.new(1, 0.333333, 0)
+tpframe.BorderSizePixel = 2
+tpframe.Position = UDim2.new(0.471544713, 0, 0.206467658, 0)
+tpframe.Size = UDim2.new(0, 288, 0, 207)
+tpframe.Visible = false
+
+vipareatp.Name = "vipareatp"
+vipareatp.Parent = tpframe
+vipareatp.BackgroundColor3 = Color3.new(0.498039, 0.498039, 0.498039)
+vipareatp.BorderColor3 = Color3.new(1, 0.333333, 0)
+vipareatp.BorderSizePixel = 2
+vipareatp.Position = UDim2.new(0.0798611119, 0, 0.198067635, 0)
+vipareatp.Size = UDim2.new(0, 111, 0, 47)
+vipareatp.Font = Enum.Font.SourceSansBold
+vipareatp.Text = "Vip Area"
+vipareatp.TextColor3 = Color3.new(0, 0, 0)
+vipareatp.TextScaled = true
+vipareatp.TextSize = 14
+vipareatp.TextWrapped = true
+
+closetp.Name = "closetp"
+closetp.Parent = tpframe
+closetp.BackgroundColor3 = Color3.new(0.498039, 0.498039, 0.498039)
+closetp.BorderColor3 = Color3.new(1, 0.333333, 0)
+closetp.BorderSizePixel = 2
+closetp.Position = UDim2.new(0.914694607, 0, 0.00165838003, 0)
+closetp.Size = UDim2.new(0, 25, 0, 28)
+closetp.Font = Enum.Font.SourceSansBold
+closetp.Text = "X"
+closetp.TextColor3 = Color3.new(0, 0, 0)
+closetp.TextScaled = true
+closetp.TextSize = 14
+closetp.TextWrapped = true
+
+TextLabel_2.Parent = tpframe
+TextLabel_2.BackgroundColor3 = Color3.new(0.498039, 0.498039, 0.498039)
+TextLabel_2.BorderColor3 = Color3.new(1, 0.333333, 0)
+TextLabel_2.BorderSizePixel = 2
+TextLabel_2.Size = UDim2.new(0, 263, 0, 28)
+TextLabel_2.Font = Enum.Font.SourceSansBold
+TextLabel_2.Text = "Ice Cream TP Zone GUI"
+TextLabel_2.TextColor3 = Color3.new(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14
+TextLabel_2.TextWrapped = true
+
+finishdemo.Name = "finishdemo"
+finishdemo.Parent = tpframe
+finishdemo.BackgroundColor3 = Color3.new(0.498039, 0.498039, 0.498039)
+finishdemo.BorderColor3 = Color3.new(1, 0.333333, 0)
+finishdemo.BorderSizePixel = 2
+finishdemo.Position = UDim2.new(0.527777791, 0, 0.507246375, 0)
+finishdemo.Size = UDim2.new(0, 111, 0, 47)
+finishdemo.Font = Enum.Font.SourceSansBold
+finishdemo.Text = "Finish Demonic Obby"
+finishdemo.TextColor3 = Color3.new(0, 0, 0)
+finishdemo.TextScaled = true
+finishdemo.TextSize = 14
+finishdemo.TextWrapped = true
+
+finishpolter.Name = "finishpolter"
+finishpolter.Parent = tpframe
+finishpolter.BackgroundColor3 = Color3.new(0.498039, 0.498039, 0.498039)
+finishpolter.BorderColor3 = Color3.new(1, 0.333333, 0)
+finishpolter.BorderSizePixel = 2
+finishpolter.Position = UDim2.new(0.0798611119, 0, 0.507246375, 0)
+finishpolter.Size = UDim2.new(0, 111, 0, 47)
+finishpolter.Font = Enum.Font.SourceSansBold
+finishpolter.Text = "Finish Poltergeist Obby"
+finishpolter.TextColor3 = Color3.new(0, 0, 0)
+finishpolter.TextScaled = true
+finishpolter.TextSize = 14
+finishpolter.TextWrapped = true
+
+ghostlyareatp.Name = "ghostly area tp"
+ghostlyareatp.Parent = tpframe
+ghostlyareatp.BackgroundColor3 = Color3.new(0.498039, 0.498039, 0.498039)
+ghostlyareatp.BorderColor3 = Color3.new(1, 0.333333, 0)
+ghostlyareatp.BorderSizePixel = 2
+ghostlyareatp.Position = UDim2.new(0.0798611119, 0, 0.724637687, 0)
+ghostlyareatp.Size = UDim2.new(0, 240, 0, 47)
+ghostlyareatp.Visible = false
+ghostlyareatp.Font = Enum.Font.SourceSansBold
+ghostlyareatp.Text = "More Comming Soon"
+ghostlyareatp.TextColor3 = Color3.new(0, 0, 0)
+ghostlyareatp.TextScaled = true
+ghostlyareatp.TextSize = 14
+ghostlyareatp.TextWrapped = true
+
+halloweentp.Name = "halloweentp"
+halloweentp.Parent = tpframe
+halloweentp.BackgroundColor3 = Color3.new(0.498039, 0.498039, 0.498039)
+halloweentp.BorderColor3 = Color3.new(1, 0.333333, 0)
+halloweentp.BorderSizePixel = 2
+halloweentp.Position = UDim2.new(0.527777791, 0, 0.198067635, 0)
+halloweentp.Size = UDim2.new(0, 111, 0, 47)
+halloweentp.Font = Enum.Font.SourceSansBold
+halloweentp.Text = "Halloween Area"
+halloweentp.TextColor3 = Color3.new(0, 0, 0)
+halloweentp.TextScaled = true
+halloweentp.TextSize = 14
+halloweentp.TextWrapped = true
+
+openframe.Name = "openframe"
+openframe.Parent = IceCream
+openframe.BackgroundColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+openframe.BorderColor3 = Color3.new(1, 0.333333, 0)
+openframe.BorderSizePixel = 2
+openframe.Position = UDim2.new(0, 0, 0.5, -25)
+openframe.Size = UDim2.new(0, 137, 0, 63)
+openframe.Visible = false
+
+Open.Name = "Open"
+Open.Parent = openframe
+Open.BackgroundColor3 = Color3.new(0.498039, 0.498039, 0.498039)
+Open.BorderColor3 = Color3.new(1, 0.333333, 0)
+Open.BorderSizePixel = 2
+Open.Size = UDim2.new(0, 137, 0, 21)
+Open.Font = Enum.Font.SourceSansBold
+Open.Text = "Open"
+Open.TextColor3 = Color3.new(1, 1, 1)
+Open.TextScaled = true
+Open.TextSize = 14
+Open.TextWrapped = true
+
+Delgui.Name = "Delgui"
+Delgui.Parent = openframe
+Delgui.BackgroundColor3 = Color3.new(0.498039, 0.498039, 0.498039)
+Delgui.BorderColor3 = Color3.new(1, 0.333333, 0)
+Delgui.BorderSizePixel = 2
+Delgui.Position = UDim2.new(0, 0, 0.666666687, 0)
+Delgui.Size = UDim2.new(0, 137, 0, 21)
+Delgui.Font = Enum.Font.SourceSansBold
+Delgui.Text = "Del GUI"
+Delgui.TextColor3 = Color3.new(1, 1, 1)
+Delgui.TextScaled = true
+Delgui.TextSize = 14
+Delgui.TextWrapped = true
+
+halloweenframe.Name = "halloweenframe"
+halloweenframe.Parent = IceCream
+halloweenframe.Active = true
+halloweenframe.BackgroundColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+halloweenframe.BorderColor3 = Color3.new(1, 0.333333, 0)
+halloweenframe.BorderSizePixel = 2
+halloweenframe.Position = UDim2.new(0.259001166, -150, 0.539603949, -100)
+halloweenframe.Size = UDim2.new(0, 303, 0, 160)
+halloweenframe.Visible = false
+
+TextLabel_3.Parent = halloweenframe
+TextLabel_3.BackgroundColor3 = Color3.new(0.498039, 0.498039, 0.498039)
+TextLabel_3.BorderColor3 = Color3.new(1, 0.333333, 0)
+TextLabel_3.BorderSizePixel = 2
+TextLabel_3.Size = UDim2.new(0, 278, 0, 28)
+TextLabel_3.Font = Enum.Font.SourceSansBold
+TextLabel_3.Text = "Halloween Features GUI Made By Aztup"
+TextLabel_3.TextColor3 = Color3.new(0, 0, 0)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14
+TextLabel_3.TextWrapped = true
+
+closehalloween.Name = "closehalloween"
+closehalloween.Parent = halloweenframe
+closehalloween.BackgroundColor3 = Color3.new(0.498039, 0.498039, 0.498039)
+closehalloween.BorderColor3 = Color3.new(1, 0.333333, 0)
+closehalloween.BorderSizePixel = 2
+closehalloween.Position = UDim2.new(0.91859144, 0, 0.00165838003, 0)
+closehalloween.Size = UDim2.new(0, 25, 0, 28)
+closehalloween.Font = Enum.Font.SourceSansBold
+closehalloween.Text = "X"
+closehalloween.TextColor3 = Color3.new(0, 0, 0)
+closehalloween.TextScaled = true
+closehalloween.TextSize = 14
+closehalloween.TextWrapped = true
+
+tokenfarmh.Name = "tokenfarmh"
+tokenfarmh.Parent = halloweenframe
+tokenfarmh.BackgroundColor3 = Color3.new(0.498039, 0.498039, 0.498039)
+tokenfarmh.BorderColor3 = Color3.new(1, 0.333333, 0)
+tokenfarmh.BorderSizePixel = 2
+tokenfarmh.Position = UDim2.new(0.0303424597, 0, 0.322417498, 0)
+tokenfarmh.Size = UDim2.new(0, 133, 0, 34)
+tokenfarmh.Font = Enum.Font.SourceSansBold
+tokenfarmh.Text = "Token Farm : OFF"
+tokenfarmh.TextColor3 = Color3.new(0, 0, 0)
+tokenfarmh.TextScaled = true
+tokenfarmh.TextSize = 14
+tokenfarmh.TextWrapped = true
+
+autosellh.Name = "autosellh"
+autosellh.Parent = halloweenframe
+autosellh.BackgroundColor3 = Color3.new(0.498039, 0.498039, 0.498039)
+autosellh.BorderColor3 = Color3.new(1, 0.333333, 0)
+autosellh.BorderSizePixel = 2
+autosellh.Position = UDim2.new(0.528692305, 0, 0.322417498, 0)
+autosellh.Size = UDim2.new(0, 133, 0, 34)
+autosellh.Font = Enum.Font.SourceSansBold
+autosellh.Text = "Auto Sell : OFF"
+autosellh.TextColor3 = Color3.new(0, 0, 0)
+autosellh.TextScaled = true
+autosellh.TextSize = 14
+autosellh.TextWrapped = true
+
+autoselltokenh.Name = "autoselltokenh"
+autoselltokenh.Parent = halloweenframe
+autoselltokenh.BackgroundColor3 = Color3.new(0.498039, 0.498039, 0.498039)
+autoselltokenh.BorderColor3 = Color3.new(1, 0.333333, 0)
+autoselltokenh.BorderSizePixel = 2
+autoselltokenh.Position = UDim2.new(0.0297029708, 0, 0.689325809, 0)
+autoselltokenh.Size = UDim2.new(0, 284, 0, 34)
+autoselltokenh.Font = Enum.Font.SourceSansBold
+autoselltokenh.Text = "Auto Sell Token : OFF"
+autoselltokenh.TextColor3 = Color3.new(0, 0, 0)
+autoselltokenh.TextScaled = true
+autoselltokenh.TextSize = 14
+autoselltokenh.TextWrapped = true
+
+halloweenframe.Draggable = true
+mainframe.Draggable = true
+tpframe.Draggable = true
+local tokenfarmm = false
+local icecreamfarmm = false
+local autoselll = false
+local autorebirthh = false
+local tokenfarmha = false
+local autosellha = false
+local autoselltokenha = false
+local plr = game:GetService('Players').LocalPlayer
+
+icecreamfarm.MouseButton1Click:Connect(function()
+if not icecreamfarmm then
+icecreamfarm.Text = 'Ice Cream Farm : ON'
+icecreamfarmm = true
+repeat
+local Event = game:GetService("Players").LocalPlayer.Character["Ice Cream"].E
+Event:FireServer()
+wait()
+
+until icecreamfarmm == false
+else
+icecreamfarm.Text = 'Ice Cream Farm : OFF'
+icecreamfarmm = false
+end
+end)
+
+tokenfarm.MouseButton1Click:Connect(function()
+if not tokenfarmm then
+tokenfarm.Text = 'Token Farm : ON'
+tokenfarmm = true
+repeat
+wait(3)
+for i,v in pairs(game.Workspace['Vip Area']['Vip Gift Box'].Box:GetChildren()) do
+if v.Name == 'Part' then
+plr.Character:MoveTo(v.Position)
+end
+end
+until
+tokenfarmm == false
+else
+tokenfarm.Text = 'Token Farm : OFF'
+tokenfarmm = false
+end
+end)
+
+sellauto.MouseButton1Click:Connect(function()
+if not autoselll then
+sellauto.Text = 'Auto Sell : ON'
+autoselll = true
+
+repeat
+local a = game.Workspace['Choco Castle']['Sell']['Sell Text']['Glow']['capital-s'].Position
+plr.Character:MoveTo(a)
+wait(1)
+until
+autoselll == false
+
+else
+
+sellauto.Text = 'Auto Sell : OFF'
+autoselll = false
+
+end
+end)
+
+tpzone.MouseButton1Click:Connect(function()
+tpframe.Visible = true
+end)
+
+closetp.MouseButton1Click:Connect(function()
+tpframe.Visible = false
+end)
+
+closegui.MouseButton1Click:Connect(function()
+mainframe:TweenPosition(mainframe.Position+UDim2.new(0,0,-2,0),'Out','Quint',1)
+wait(1)
+openframe.Visible = true
+end)
+
+Open.MouseButton1Click:Connect(function()
+mainframe:TweenPosition(mainframe.Position-UDim2.new(0,0,-2,0),'Out','Quint',1)
+wait(1)
+openframe.Visible = false
+end)
+
+Delgui.MouseButton1Click:Connect(function()
+IceCream:Destroy()
+end)
+
+vipareatp.MouseButton1Click:Connect(function()
+plr.Character:MoveTo(game.Workspace['Vip Area']['Gold Water'].Glow.Position)
+end)
+
+finishpolter.MouseButton1Click:Connect(function()
+local a = game.Workspace.Obby['Poltergeist Obby'].Chest.Top.Main.Part.Position
+plr.Character:MoveTo(a)
+end)
+
+finishdemo.MouseButton1Click:Connect(function()
+local a = game.Workspace.Obby['Demonic Obby'].Chest.Top.Main.Part.Position
+plr.Character:MoveTo(a)
+end)
+
+autorebirth.MouseButton1Click:Connect(function()
+if not autorebirthh then
+autorebirth.Text = 'Auto Rebirth : ON'
+autorebirthh = true
+
+repeat
+local Event = game:GetService("ReplicatedStorage").Events.Rebirth
+Event:FireServer()
+wait()
+until autorebirthh == false
+else
+autorebirth.Text = 'Auto Rebirth : OFF'
+autorebirthh = false
+end
+end)
+
+halloweenoption.MouseButton1Click:Connect(function()
+halloweenframe.Visible = true
+end)
+
+closehalloween.MouseButton1Click:Connect(function()
+halloweenframe.Visible = false
+end)
+
+tokenfarmh.MouseButton1Click:Connect(function()
+if not tokenfarmha then
+tokenfarmh.Text = 'Token Farm : ON'
+tokenfarmha = true
+repeat
+wait(1)
+for i,v in pairs(game.Workspace['Halloween Area'].Tokens:GetChildren()) do
+if v.Transparency == 0 then
+plr.Character:MoveTo(v.Position)
+end
+end
+until tokenfarmha == false
+else
+tokenfarmh.Text = 'Token Farm : OFF'
+tokenfarmha = false
+end
+end)
+
+halloweentp.MouseButton1Click:Connect(function()
+local a = game.Workspace['Halloween Area'].NPC.Dracula.Torso.Position
+plr.Character:MoveTo(a)
+end)
+
+autosellh.MouseButton1Click:Connect(function()
+if not autosellha then
+autosellh.Text = 'Auto Sell : ON'
+autosellha = true
+repeat
+local a = game.Workspace['Halloween Area']['Ice Cream Truck']['Sell Text'].Regular['capital-s'].Position
+plr.Character:MoveTo(a)
+wait(1)
+until autosellha == false
+else
+autosellh.Text = 'Auto Sell : OFF'
+autosellha = false
+end
+end)
+
+autoselltokenh.MouseButton1Click:Connect(function()
+if not autoselltokenha then
+autoselltokenh.Text = 'Auto Sell Token : ON'
+autoselltokenha = true
+repeat
+local a = game.Workspace['Halloween Area'].Sell.Sell.Position
+plr.Character:MoveTo(a)
+wait(1)
+until autoselltokenha == false
+else
+autoselltokenh.Text = 'Auto Sell Token : OFF'
+autoselltokenha = false
+end
+end)
+
+game.Workspace['Choco Castle']['Choco Castle']:WaitForChild('Front Wall'):Destroy()
+
+for i,v in pairs(game.Workspace['Choco Castle']['Choco Castle']:GetChildren()) do
+if v.Name == 'Part' then
+v:Destroy()
+end
+end
