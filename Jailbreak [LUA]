@@ -1,0 +1,418 @@
+local XDGANGGui = Instance.new("ScreenGui")
+local OpenFrame = Instance.new("Frame")
+local OpenGui = Instance.new("TextButton")
+local Main = Instance.new("Frame")
+local BeautyA = Instance.new("Frame")
+local Credit = Instance.new("TextLabel")
+local BeautyB = Instance.new("Frame")
+local Name = Instance.new("TextLabel")
+local V10 = Instance.new("TextLabel")
+local CloseButton = Instance.new("TextButton")
+local WS = Instance.new("TextButton")
+local Noclip = Instance.new("TextButton")
+local Jewelry = Instance.new("TextButton")
+local BTools = Instance.new("TextButton")
+local CrimBase = Instance.new("TextButton")
+local Bank = Instance.new("TextButton")
+local Stuff = Instance.new("TextLabel")
+local TPs = Instance.new("TextLabel")
+local OOF = Instance.new("TextLabel")
+local OOF_2 = Instance.new("TextLabel")
+local OOF_3 = Instance.new("TextLabel")
+local OOF_4 = Instance.new("TextLabel")
+local OOF_5 = Instance.new("TextLabel")
+
+-- Properties
+
+XDGANGGui.Name = "XD GANG Gui"
+XDGANGGui.Parent = game.CoreGui
+XDGANGGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+OpenFrame.Name = "OpenFrame"
+OpenFrame.Parent = XDGANGGui
+OpenFrame.BackgroundColor3 = Color3.new(0.152941, 0.152941, 0.152941)
+OpenFrame.BorderSizePixel = 0
+OpenFrame.Position = UDim2.new(0.83683455, 0, 0.942752719, 0)
+OpenFrame.Size = UDim2.new(0, 176, 0, 30)
+
+OpenGui.Name = "OpenGui"
+OpenGui.Parent = OpenFrame
+OpenGui.BackgroundColor3 = Color3.new(1, 1, 1)
+OpenGui.BackgroundTransparency = 1
+OpenGui.BorderSizePixel = 0
+OpenGui.Position = UDim2.new(0.00568175316, 0, 0.100000001, 0)
+OpenGui.Size = UDim2.new(0, 175, 0, 23)
+OpenGui.Text = "Open Gui"
+OpenGui.TextColor3 = Color3.new(1, 0.137255, 0.345098)
+OpenGui.TextScaled = true
+OpenGui.TextSize = 14
+OpenGui.TextWrapped = true
+OpenGui.MouseButton1Down:connect(function()
+	OpenFrame.Visible = false
+	Main.Visible = true
+end)
+
+Main.Name = "Main"
+Main.Parent = XDGANGGui
+Main.BackgroundColor3 = Color3.new(1, 0.137255, 0.345098)
+Main.BackgroundTransparency = 0.20000000298023
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.253838509, 0, 0.303288668, 0)
+Main.Size = UDim2.new(0, 629, 0, 322)
+Main.Visible = false
+Main.Active = true
+Main.Draggable = true
+
+BeautyA.Name = "BeautyA"
+BeautyA.Parent = Main
+BeautyA.BackgroundColor3 = Color3.new(0.152941, 0.152941, 0.152941)
+BeautyA.BorderSizePixel = 0
+BeautyA.Position = UDim2.new(-0.0127186012, 0, 0.916442037, 0)
+BeautyA.Size = UDim2.new(0, 644, 0, 31)
+
+Credit.Name = "Credit"
+Credit.Parent = BeautyA
+Credit.BackgroundColor3 = Color3.new(1, 1, 1)
+Credit.BackgroundTransparency = 1
+Credit.BorderSizePixel = 0
+Credit.Position = UDim2.new(0.344720483, 0, 0, 0)
+Credit.Size = UDim2.new(0, 200, 0, 31)
+Credit.Text = "Made by Invented"
+Credit.TextColor3 = Color3.new(1, 0.137255, 0.345098)
+Credit.TextSize = 14
+
+BeautyB.Name = "BeautyB"
+BeautyB.Parent = Main
+BeautyB.BackgroundColor3 = Color3.new(0.152941, 0.152941, 0.152941)
+BeautyB.BorderSizePixel = 0
+BeautyB.Position = UDim2.new(-0.0127186012, 0, 0, 0)
+BeautyB.Size = UDim2.new(0, 644, 0, 31)
+
+Name.Name = "Name"
+Name.Parent = BeautyB
+Name.BackgroundColor3 = Color3.new(1, 1, 1)
+Name.BackgroundTransparency = 1
+Name.BorderSizePixel = 0
+Name.Position = UDim2.new(0.344720483, 0, 0, 0)
+Name.Size = UDim2.new(0, 200, 0, 31)
+Name.Text = "XD GANG"
+Name.TextColor3 = Color3.new(1, 0.137255, 0.345098)
+Name.TextSize = 17
+
+V10.Name = "V 1.0"
+V10.Parent = BeautyB
+V10.BackgroundColor3 = Color3.new(1, 1, 1)
+V10.BackgroundTransparency = 1
+V10.BorderSizePixel = 0
+V10.Position = UDim2.new(0.597826064, 0, 0.322580636, 0)
+V10.Size = UDim2.new(0, 54, 0, 13)
+V10.Text = "V 1.0"
+V10.TextColor3 = Color3.new(1, 0.137255, 0.345098)
+V10.TextSize = 10
+
+CloseButton.Name = "CloseButton"
+CloseButton.Parent = BeautyB
+CloseButton.BackgroundColor3 = Color3.new(1, 1, 1)
+CloseButton.BackgroundTransparency = 1
+CloseButton.Position = UDim2.new(0.944356084, 0, 0, 0)
+CloseButton.Size = UDim2.new(0, 35, 0, 31)
+CloseButton.Text = "X"
+CloseButton.TextColor3 = Color3.new(1, 0.137255, 0.345098)
+CloseButton.TextScaled = true
+CloseButton.TextSize = 14
+CloseButton.TextWrapped = true
+CloseButton.MouseButton1Down:connect(function()
+	Main.Visible = false
+	OpenFrame.Visible = true
+end)
+
+WS.Name = "WS"
+WS.Parent = Main
+WS.BackgroundColor3 = Color3.new(0.152941, 0.152941, 0.152941)
+WS.BorderSizePixel = 0
+WS.Position = UDim2.new(0.0222575516, 0, 0.531055927, 0)
+WS.Size = UDim2.new(0, 177, 0, 48)
+WS.Text = "Walkspeed"
+WS.TextColor3 = Color3.new(1, 0.137255, 0.345098)
+WS.TextScaled = true
+WS.TextSize = 14
+WS.TextWrapped = true
+WS.MouseButton1Down:connect(function()
+    local walkspeedplayer = game:GetService("Players").LocalPlayer
+    local walkspeedmouse = walkspeedplayer:GetMouse()
+   
+    local walkspeedenabled = false
+   
+    function x_walkspeed(key)
+        if (key == "x") then
+            if walkspeedenabled == false then
+                _G.WS = 150;
+                local Humanoid = game:GetService("Players").LocalPlayer.Character.Humanoid;
+                Humanoid:GetPropertyChangedSignal("WalkSpeed"):Connect(function()
+                Humanoid.WalkSpeed = _G.WS;
+                end)
+                Humanoid.WalkSpeed = _G.WS;
+               
+                walkspeedenabled = true
+            elseif walkspeedenabled == true then
+                _G.WS = 16;
+                local Humanoid = game:GetService("Players").LocalPlayer.Character.Humanoid;
+                Humanoid:GetPropertyChangedSignal("WalkSpeed"):Connect(function()
+                Humanoid.WalkSpeed = _G.WS;
+                end)
+                Humanoid.WalkSpeed = _G.WS;
+               
+                walkspeedenabled = false
+            end
+        end
+    end
+   
+    walkspeedmouse.KeyDown:connect(x_walkspeed)
+   
+end)
+
+Noclip.Name = "Noclip"
+Noclip.Parent = Main
+Noclip.BackgroundColor3 = Color3.new(0.152941, 0.152941, 0.152941)
+Noclip.BorderSizePixel = 0
+Noclip.Position = UDim2.new(0.0222575516, 0, 0.347826093, 0)
+Noclip.Size = UDim2.new(0, 177, 0, 48)
+Noclip.Text = "Noclip"
+Noclip.TextColor3 = Color3.new(1, 0.137255, 0.345098)
+Noclip.TextScaled = true
+Noclip.TextSize = 14
+Noclip.TextWrapped = true
+Noclip.MouseButton1Down:connect(function()
+    game:GetService("Players").LocalPlayer.Character.RightHand.Touched:connect(function(obj)
+if obj ~= workspace.Terrain then
+obj.CanCollide = false
+wait(1)
+obj.CanCollide = true
+end
+end)
+end)
+
+Jewelry.Name = "Jewelry"
+Jewelry.Parent = Main
+Jewelry.BackgroundColor3 = Color3.new(0.152941, 0.152941, 0.152941)
+Jewelry.BorderSizePixel = 0
+Jewelry.Position = UDim2.new(0.694753587, 0, 0.531055927, 0)
+Jewelry.Size = UDim2.new(0, 177, 0, 48)
+Jewelry.Text = "Jewelry"
+Jewelry.TextColor3 = Color3.new(1, 0.137255, 0.345098)
+Jewelry.TextScaled = true
+Jewelry.TextSize = 14
+Jewelry.TextWrapped = true
+Jewelry.MouseButton1Down:connect(function()
+    for i = 1,45 do
+wait(.08)
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(101.211128, 98.6576996, 1310.54175)
+end
+end)
+
+BTools.Name = "BTools"
+BTools.Parent = Main
+BTools.BackgroundColor3 = Color3.new(0.152941, 0.152941, 0.152941)
+BTools.BorderSizePixel = 0
+BTools.Position = UDim2.new(0.0222575665, 0, 0.726708055, 0)
+BTools.Size = UDim2.new(0, 177, 0, 48)
+BTools.Text = "BTools"
+BTools.TextColor3 = Color3.new(1, 0.137255, 0.345098)
+BTools.TextScaled = true
+BTools.TextSize = 14
+BTools.TextWrapped = true
+BTools.MouseButton1Down:connect(function()
+    game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, true)
+for index, child in pairs(game:GetService("Workspace"):GetChildren()) do
+   if child.ClassName == "Part" then
+       child.Locked = false
+   end
+   if child.ClassName == "MeshPart" then
+       child.Locked = false
+   end
+   if child.ClassName == "UnionOperation" then
+       child.Locked = false
+   end
+   if child.ClassName == "Model" then
+       for index, chil in pairs(child:GetChildren()) do
+           if chil.ClassName == "Part" then
+               chil.Locked = false
+           end
+           if chil.ClassName == "MeshPart" then
+               chil.Locked = false
+           end
+           if chil.ClassName == "UnionOperation" then
+               chil.Locked = false
+           end
+           if chil.ClassName == "Model" then
+               for index, childe in pairs(chil:GetChildren()) do
+                   if childe.ClassName == "Part" then
+                       childe.Locked = false
+                   end
+                   if childe.ClassName == "MeshPart" then
+                       childe.Locked = false
+                   end
+                   if childe.ClassName == "UnionOperation" then
+                       childe.Locked = false
+                   end
+                   if childe.ClassName == "Model" then
+                       for index, childeo in pairs(childe:GetChildren()) do
+                           if childeo.ClassName == "Part" then
+                               childeo.Locked = false
+                           end
+                           if childeo.ClassName == "MeshPart" then
+                               childeo.Locked = false
+                           end
+                           if childeo.ClassName == "UnionOperation" then
+                               childeo.Locked = false
+                           end
+                           if childeo.ClassName == "Model" then
+                           end
+                       end
+                   end
+               end
+           end
+       end
+   end
+end
+c = Instance.new("HopperBin", game:GetService("Players").LocalPlayer.Backpack)
+c.BinType = Enum.BinType.Hammer
+c = Instance.new("HopperBin", game:GetService("Players").LocalPlayer.Backpack)
+c.BinType = Enum.BinType.Clone
+c = Instance.new("HopperBin", game:GetService("Players").LocalPlayer.Backpack)
+c.BinType = Enum.BinType.Grab
+end)
+
+CrimBase.Name = "CrimBase"
+CrimBase.Parent = Main
+CrimBase.BackgroundColor3 = Color3.new(0.152941, 0.152941, 0.152941)
+CrimBase.BorderSizePixel = 0
+CrimBase.Position = UDim2.new(0.694753587, 0, 0.347826093, 0)
+CrimBase.Size = UDim2.new(0, 177, 0, 48)
+CrimBase.Text = "Crimbase"
+CrimBase.TextColor3 = Color3.new(1, 0.137255, 0.345098)
+CrimBase.TextScaled = true
+CrimBase.TextSize = 14
+CrimBase.TextWrapped = true
+CrimBase.MouseButton1Down:connect(function()
+    for i = 1,45 do
+wait(.08)
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-221.723099, 18, 1578.80261)
+end
+end)
+
+Bank.Name = "Bank"
+Bank.Parent = Main
+Bank.BackgroundColor3 = Color3.new(0.152941, 0.152941, 0.152941)
+Bank.BorderSizePixel = 0
+Bank.Position = UDim2.new(0.694753587, 0, 0.726708055, 0)
+Bank.Size = UDim2.new(0, 177, 0, 48)
+Bank.Text = "Bank"
+Bank.TextColor3 = Color3.new(1, 0.137255, 0.345098)
+Bank.TextScaled = true
+Bank.TextSize = 14
+Bank.TextWrapped = true
+Bank.MouseButton1Down:connect(function()
+    for i = 1,45 do
+wait(.08)
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(9.92591476, 17.8639755, 786.788147)
+end
+end)
+
+Stuff.Name = "Stuff"
+Stuff.Parent = Main
+Stuff.BackgroundColor3 = Color3.new(1, 1, 1)
+Stuff.BackgroundTransparency = 1
+Stuff.BorderSizePixel = 0
+Stuff.Position = UDim2.new(0.0222575516, 0, 0.142857149, 0)
+Stuff.Size = UDim2.new(0, 177, 0, 50)
+Stuff.Font = Enum.Font.SourceSans
+Stuff.Text = "Stuff"
+Stuff.TextColor3 = Color3.new(0, 0, 0)
+Stuff.TextScaled = true
+Stuff.TextSize = 14
+Stuff.TextWrapped = true
+
+TPs.Name = "TPs"
+TPs.Parent = Main
+TPs.BackgroundColor3 = Color3.new(1, 1, 1)
+TPs.BackgroundTransparency = 1
+TPs.BorderSizePixel = 0
+TPs.Position = UDim2.new(0.694753587, 0, 0.142857149, 0)
+TPs.Size = UDim2.new(0, 177, 0, 50)
+TPs.Font = Enum.Font.SourceSans
+TPs.Text = "TPs"
+TPs.TextColor3 = Color3.new(0, 0, 0)
+TPs.TextScaled = true
+TPs.TextSize = 14
+TPs.TextWrapped = true
+
+OOF.Name = "OOF"
+OOF.Parent = Main
+OOF.BackgroundColor3 = Color3.new(1, 1, 1)
+OOF.BackgroundTransparency = 1
+OOF.BorderSizePixel = 0
+OOF.Position = UDim2.new(0.35771066, 0, 0.192546591, 0)
+OOF.Size = UDim2.new(0, 177, 0, 50)
+OOF.Font = Enum.Font.SourceSans
+OOF.Text = "OOF"
+OOF.TextColor3 = Color3.new(0, 0, 0)
+OOF.TextScaled = true
+OOF.TextSize = 14
+OOF.TextWrapped = true
+
+OOF_2.Name = "OOF"
+OOF_2.Parent = Main
+OOF_2.BackgroundColor3 = Color3.new(1, 1, 1)
+OOF_2.BackgroundTransparency = 1
+OOF_2.BorderSizePixel = 0
+OOF_2.Position = UDim2.new(0.35771066, 0, 0.298136652, 0)
+OOF_2.Size = UDim2.new(0, 177, 0, 50)
+OOF_2.Font = Enum.Font.SourceSans
+OOF_2.Text = "OOF"
+OOF_2.TextColor3 = Color3.new(0, 0, 0)
+OOF_2.TextScaled = true
+OOF_2.TextSize = 14
+OOF_2.TextWrapped = true
+
+OOF_3.Name = "OOF"
+OOF_3.Parent = Main
+OOF_3.BackgroundColor3 = Color3.new(1, 1, 1)
+OOF_3.BackgroundTransparency = 1
+OOF_3.BorderSizePixel = 0
+OOF_3.Position = UDim2.new(0.359300494, 0, 0.409937918, 0)
+OOF_3.Size = UDim2.new(0, 177, 0, 50)
+OOF_3.Font = Enum.Font.SourceSans
+OOF_3.Text = "OOF"
+OOF_3.TextColor3 = Color3.new(0, 0, 0)
+OOF_3.TextScaled = true
+OOF_3.TextSize = 14
+OOF_3.TextWrapped = true
+
+OOF_4.Name = "OOF"
+OOF_4.Parent = Main
+OOF_4.BackgroundColor3 = Color3.new(1, 1, 1)
+OOF_4.BackgroundTransparency = 1
+OOF_4.BorderSizePixel = 0
+OOF_4.Position = UDim2.new(0.359300494, 0, 0.527950346, 0)
+OOF_4.Size = UDim2.new(0, 177, 0, 50)
+OOF_4.Font = Enum.Font.SourceSans
+OOF_4.Text = "OOF"
+OOF_4.TextColor3 = Color3.new(0, 0, 0)
+OOF_4.TextScaled = true
+OOF_4.TextSize = 14
+OOF_4.TextWrapped = true
+
+OOF_5.Name = "OOF"
+OOF_5.Parent = Main
+OOF_5.BackgroundColor3 = Color3.new(1, 1, 1)
+OOF_5.BackgroundTransparency = 1
+OOF_5.BorderSizePixel = 0
+OOF_5.Position = UDim2.new(0.359300494, 0, 0.636645973, 0)
+OOF_5.Size = UDim2.new(0, 177, 0, 50)
+OOF_5.Font = Enum.Font.SourceSans
+OOF_5.Text = "OOF"
+OOF_5.TextColor3 = Color3.new(0, 0, 0)
+OOF_5.TextScaled = true
+OOF_5.TextSize = 14
+OOF_5.TextWrapped = true
